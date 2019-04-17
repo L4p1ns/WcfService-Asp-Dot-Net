@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="bdFadiouModelStoreContainer" CdmEntityContainer="bdFadiouEntities">
+    <EntitySetMapping Name="Chambres">
+      <EntityTypeMapping TypeName="bdFadiouModel.Chambres">
+        <MappingFragment StoreEntitySet="Chambres">
+          <ScalarProperty Name="idCh" ColumnName="idCh" />
+          <ScalarProperty Name="codeCh" ColumnName="codeCh" />
+          <ScalarProperty Name="libelle" ColumnName="libelle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
